@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+/* * {
+    background-color: rgb(37, 238, 245);
+} */
+
+h1 {
+    text-align: center;
+    color:navy;
+    font-family: 'Tinos', serif;
+    font-size: 80px;
+    background-color: white;
+    padding: 50px 50px 20px 50px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color:navy;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    background-color: white;
+    padding: 5px 20px 20px 20px;
+    margin: 0;
+}
+
+
+div {
+    text-align: center;
+    color:white;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    background-color: navy;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+.redText {
+    color: red;
+}
+
+
+.welcomeText {
+    color: navy;
+    text-align: left;
+    background-color: grey
+}
+
+.petText {
+    color: navy;
+    text-align: center;
+    justify-content: right;
+    background-color: grey
+}
+
+
+img {
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.column {
+    width: 33%;
+    float: left;
+}
+
+
+.halfSize {
+    width: 20%;
+    float: right
+}
+
+.containerlogo {
+    display:flex;
+    min-height: 10px;
+    align-items: flex-end
+}
+
+.fullSize {
+    width 100%;
+}
+
+* {
+     box-sizing: border-box;
+     /* padding: 15px 15px 15px 15px; */
+     color: white;
+}
+
+
+
+img.borderedpicture {
+    background-color: white;
+    background-image: url(texture tile graphic’s address);
+    display: block;
+    width: 30%;
+    max-width: 30%;
+    height: auto;
+    size: cover;
+    padding: 2% 0 2% 0;
+    margin: 1% 0 1% 0;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+
+h2.pos_left {
+  position: relative;
+  left: -20px;
+}
+
+h2.pos_right {
+  position: relative;
+  left: 20px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    outline-color: coral;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+/* 
+.box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; }
+.box10 { background: #18dcff; } */
+
+
+div.a {
+    text-align: center;
+}
+  
+div.b {
+    text-align: left;
+}
+  
+div.c {
+    text-align: right;
+}
+  
+div.c {
+    text-align: justify;
+}
+
+
+.navbar {
+    background-color: navy;
+
+}
+
+.navbar a {
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: centre;
+    padding-left: 80px;
+
+}
+
+
+.container {
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+.item {
+    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+
+div {outline-color: coral;}
+
+.stocktext {
+    text-align: center;
+    color:navy;
+    font-family: 'Tinos', serif;
+    font-size: 55px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+.phonenumber {
+    text-align: center;
+    color:navy;
+    font-family: Impact;
+    font-size: 100px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+.wearetext {
+    text-align: center;
+    color:white;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    background-color: navy;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+.freedelivery {
+    text-align: center;
+    color:yellow;
+    font-family: 'Tinos', serif;
+    font-size: 40px;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+
+.openinghours {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color:white;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    background-color: navy;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+.catpics {
+    /* display:flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex-direction: column;
+    justify-content: space-between; */ */
+    align-content: center;
+    /* width: 30%;
+    text-align: center; */
+    color:white;
+    /* font-family: 'Tinos', serif;
+    font-size: 30px; */
+    background-color: grey;
+    padding: 20px 20px 20px 20px; */
+    /* margin: 0;
+}
+
+.smaller img {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+
+.box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; }
+.box10 { background: #18dcff; }
+
